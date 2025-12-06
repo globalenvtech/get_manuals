@@ -7,9 +7,9 @@ Go to <a href="https://globalenvtech.github.io/merge_therm_geom/" target="_blank
 
 ## Getting Started
 1. We will run a simple example for you to have a sense of the workflow. 
-    - Click on the 'Download raw file' icon as shown in the diagram below.
     - download a PLY thermal point cloud file <a href="https://github.com/globalenvtech/merge_therm_geom/blob/main/examples/simple_example/SoLo_Therm_08-08-2025_13-51-50_LWpointCloud_1k.ply" target="_blank">here</a>.
     - download a STL geometry file <a href="https://github.com/globalenvtech/merge_therm_geom/blob/main/examples/simple_example/SoLo_Therm_08-08-2025_13-51-50_LWpointCloud_1k.ply" target="_blank">here</a>.
+    - Click on the 'Download raw file' icon as shown in the diagram below at the Github page to download the files.
     
     ```{image} _static/merge_therm_geom/diagram1.png
     :width: 100%
@@ -57,10 +57,32 @@ Go to <a href="https://globalenvtech.github.io/merge_therm_geom/" target="_blank
     ```
 
 ## ETH Zurich Case
-- The PLY file produced by the SoLo sensor has 800,000++ points to project. The STL file I am using has like 2500+ triangles. To project all the points onto the geometry file will require close to 2 Billions projection calculations. That will take really long for the processing on the webapp (maybe even up to hours) which is not very ideal.
-- I suggest using cloud compare to reduce the density of the thermal point clouds to an appropriate density for projection. For example I reduce the point clouds to about 13,000 points and the calculation takes about 1 minutes and produces quite good results as shown below.
+- The PLY file produced by the SoLo sensor has ~800,000 points to project. The STL file I am using has like ~2500 triangles. To project all the points onto the geometry file will require close to 2 Billions projection calculations. That will take really long for the processing on the webapp (maybe even up to hours) which is not very ideal.
+- Here is a summary of the time taken to do the projection in relation to the number of points on my workstation.
+```
+~4000   -----> less than a min
+~13,000 -----> 1 min
+~100,000 ----> 10 min
+~300,000 ----> 34 min
+~800,000 ----> 85 min
+```
+
+- I suggest using cloud compare to reduce the density of the thermal point clouds to an appropriate density for projection. For example I reduce the point clouds to about ~13,000 points and the calculation takes about 1 minutes and produces quite good results as shown below.
 
 ```{image} _static/merge_therm_geom/diagram7.png
+:width: 100%
+:align: center
+```
+- If you definitely require the precision from the ~800,000 point clouds. You can run it on the browser too. I ran it on my workstation and it took ~85 mins. Processing time will depend on the performance of your computer.
+
+```{image} _static/merge_therm_geom/diagram16.png
+:width: 100%
+:align: center
+```
+
+- This is a ~300,000 point clouds. I ran it on my workstation and it took ~xx mins.
+
+```{image} _static/merge_therm_geom/diagram16.png
 :width: 100%
 :align: center
 ```
