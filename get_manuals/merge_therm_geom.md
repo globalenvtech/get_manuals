@@ -80,7 +80,7 @@ Go to <a href="https://globalenvtech.github.io/merge_therm_geom/" target="_blank
 :align: center
 ```
 
-- This is a ~300,000 point clouds. I ran it on my workstation and it took ~xx mins.
+- This is a ~300,000 point clouds. I ran it on my workstation and it took ~34 mins.
 
 ```{image} _static/merge_therm_geom/diagram16.png
 :width: 100%
