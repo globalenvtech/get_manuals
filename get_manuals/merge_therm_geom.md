@@ -8,7 +8,7 @@ Go to <a href="https://globalenvtech.github.io/merge_therm_geom/" target="_blank
 ## Getting Started
 1. We will run a simple example for you to have a sense of the workflow. 
     - download a PLY thermal point cloud file <a href="https://github.com/globalenvtech/merge_therm_geom/blob/main/examples/simple_example/SoLo_Therm_08-08-2025_13-51-50_LWpointCloud_1k.ply" target="_blank">here</a>.
-    - download a STL geometry file <a href="https://github.com/globalenvtech/merge_therm_geom/blob/main/examples/simple_example/SoLo_Therm_08-08-2025_13-51-50_LWpointCloud_1k.ply" target="_blank">here</a>.
+    - download a STL geometry file <a href="https://github.com/globalenvtech/merge_therm_geom/blob/main/examples/simple_example/simple_rm.stl" target="_blank">here</a>.
     - Click on the 'Download raw file' icon as shown in the diagram below at the Github page to download the files.
     
     ```{image} _static/merge_therm_geom/diagram1.png
