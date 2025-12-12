@@ -50,3 +50,14 @@ Go to <a href="https://globalenvtech.github.io/raytracemrt/" target="_blank">htt
     :align: center
     ```
 9. Congratulations you have successfully calculated the MRT of the space!
+
+## ETH Zurich Case
+- As we are using voxelization for the raytracing calculation the number of point clouds has little effect on the calculation time.
+- the voxel dimension will increase the calculation time. The smaller the voxel size the longer the calculation will take.
+- the number of rays you project for each of your grid points and the number of grid points will increase the calculation time.
+
+```
+~800,000, 0.1m voxel size, 16 grid points & 100 rays/grid point ----> 1 min
+~800,000, 0.1m voxel size, 16 grid points & 360 rays/grid point ----> 1 min
+~800,000, 0.1m voxel size, 16 grid points & 360 rays/grid point ----> 2 min
+```
