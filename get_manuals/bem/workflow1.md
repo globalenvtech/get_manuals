@@ -1,8 +1,8 @@
 # Building Energy Modeling with Sketchup & OpenStudio
-
 - Pre-requisite
     - Access to Sketchup Pro/Studio, Sketchup Go is not able to use OpenStudio Plugin
     - Install OpenStudio Sketchup-Plugin following instructions from <a href="https://openstudiocoalition.org/getting_started/getting_started/" target="_blank">here</a>. Follow the "Installation Instructions Section"
+    
 ## Import and scale reference drawings
 1. Import the PDF drawings into sketchup. Go to File -> Import and select the PDF drawing you want to import into the program. Drop the drawings onto the origin of the window by double-clicking on the origin.
 
