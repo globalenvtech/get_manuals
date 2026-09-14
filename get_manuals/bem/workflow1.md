@@ -49,7 +49,11 @@
 
 8. Use the Tape Measure tool by pressing 't' on your keyboard or go to Tools -> Tape Measure. Measure the two ends of the scale bar. Once measured typed in 4.8768m (you will see the number at the bottom right of the window), a dialog box will pop up asking if you want to resize the model. Click 'Yes', and all the drawings will be resize to 1:1 scale. Check the result by measure the scale bar.
 
-    ```{image} ../_static/workflow1/workflow1_7c.png
+    ```{image} ../_static/workflow1/workflow1_7a.png
+    :width: 100%
+    :align: center
+    ```
+    ```{image} ../_static/workflow1/workflow1_7b.png
     :width: 100%
     :align: center
     ```
