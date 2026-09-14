@@ -57,3 +57,5 @@
     :width: 100%
     :align: center
     ```
+
+9. As each drawings are different level of the buildings. We need to stack them together and make sure they align with each other. Once stacked we can again move the drawings up on the z-axis according to the height of each level.
