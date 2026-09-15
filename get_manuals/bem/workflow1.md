@@ -58,4 +58,32 @@
     :align: center
     ```
 
-9. As each drawings are different level of the buildings. We need to stack them together and make sure they align with each other. Once stacked we can again move the drawings up on the z-axis according to the height of each level.
+9. Delete the two vertical lines. Next go to the the Default Tray -> Tags. Add a new folder called 'ref_imgs'.
+
+    ```{image} ../_static/workflow1/workflow1_8.png
+    :width: 100%
+    :align: center
+    ```
+    
+    - Inside the folder create a tag for every image 'ref_imgx'
+
+    ```{image} ../_static/workflow1/workflow1_8b.png
+    :width: 100%
+    :align: center
+    ```
+
+10. Assign each image to the corresponding tag. Select the image go to Entity Info -> Tag and select the corresponding tag. You will then be able to turn on and off each tag to control the visibility of each image in the scene.
+
+    ```{image} ../_static/workflow1/workflow1_9.png
+    :width: 100%
+    :align: center
+    ```
+
+11. As each drawings are different level of the building. We need to stack them together and make sure they align with each other. Once stacked we can again move the drawings up on the z-axis according to the height of each level. Find shared points between all drawings and stack them together.
+
+    ```{image} ../_static/workflow1/workflow1_10.gif
+    :width: 100%
+    :align: center
+    ```
+
+12. Once stacked move the image in the z-axis based on the height of each level.
