@@ -1,9 +1,4 @@
-# Building Energy Modeling with Sketchup & OpenStudio
-- Pre-requisite
-    - Access to Sketchup Pro/Studio, Sketchup Go is not able to use OpenStudio Plugin
-    - Install OpenStudio Sketchup-Plugin following instructions from <a href="https://openstudiocoalition.org/getting_started/getting_started/" target="_blank">here</a>. Follow the "Installation Instructions Section"
-    
-## Import and scale reference drawings
+# Import and scale reference drawings
 1. Import the PDF drawings into sketchup. Go to File -> Import and select the PDF drawing you want to import into the program. Drop the drawings onto the origin of the window by double-clicking on the origin.
 
     ```{image} ../_static/workflow1/workflow1_1.png
@@ -79,7 +74,7 @@
     :align: center
     ```
 
-11. As each drawings are different level of the building. We need to stack them together and make sure they align with each other. Once stacked we can again move the drawings up on the z-axis according to the height of each level. Find shared points between all drawings and stack them together. Test
+11. As each drawings are different level of the building. We need to stack them together and make sure they align with each other. Once stacked we can again move the drawings up on the z-axis according to the height of each level. Find shared points between all drawings and stack them together.
 
     ```{image} ../_static/workflow1/workflow1_10.gif
     :width: 100%
