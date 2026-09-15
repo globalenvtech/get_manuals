@@ -79,7 +79,7 @@
     :align: center
     ```
 
-11. As each drawings are different level of the building. We need to stack them together and make sure they align with each other. Once stacked we can again move the drawings up on the z-axis according to the height of each level. Find shared points between all drawings and stack them together.
+11. As each drawings are different level of the building. We need to stack them together and make sure they align with each other. Once stacked we can again move the drawings up on the z-axis according to the height of each level. Find shared points between all drawings and stack them together. Test
 
     ```{image} ../_static/workflow1/workflow1_10.gif
     :width: 100%
