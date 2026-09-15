@@ -16,6 +16,7 @@ project:
     - file: raytrace/raytrace_mrt.md
     - title: Energy Modeling with Sketchup and OpenStudio
       children:
+        - file: bem/bem_intro.md
         - file: bem/workflow1.md
 site:
   template: book-theme
